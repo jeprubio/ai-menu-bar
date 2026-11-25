@@ -1,0 +1,11 @@
+# Build output (rebuilt by build.sh / install.sh)
+AIMenuBar.app/Contents/MacOS/
+AIMenuBar.app/Contents/_CodeSignature/
+
+# macOS
+.DS_Store
+
+# Never commit credentials
+env
+*.env
+.env*
